@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CoWin</title>
+    <link rel="shortcut icon" href="website-logo.png">
+    <link rel="stylesheet" href="download_style.css">
+    <script> 
+        function validation()
+            {
+                var number=document.getElementById("num").value;   
+                var regexp=/^[7-9]{1}[0-9]{9}$/;
+                if(!(number.match(regexp))){
+                    window.alert("Invalid Number");   
+                    return false;
+                }
+            }
+    </script>
+</head>
+
+
+<body>
+    <div class="topnav">
+        <nav>
+            <label><a href="main.html"><img src="covid19logo.png" alt="" class="logo"></a></label>
+        </nav>
+    </div>
+    <div id="main">
+        <img src="book_logo.svg" alt="" class="heart">
+        <p class="reg">Register or Sign In for Vaccination</p>
+        <div class="input">
+            <form action="certificate.php" onsubmit="return validation()" method="post">
+                <dl>
+                    <dd><input type="number" name="number"id ="num" required placeholder="          Enter Your Mobile Number" maxlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"></dd><br>
+                    <dt><p class="terms">By Sign In/Registration, I agree to the <a href="https://www.cowin.gov.in/terms-condition" target="_blank">Terms of Service</a> and <a href="https://www.cowin.gov.in/privacy-policy" target="_blank">Privacy Policy</a></p></dt>
+                    <input type="submit" class="register" value="Register">
+                </dl>
+            </form>
+        </div>
+        <p class="first_line">_______</p>
+        <p class="or">OR BOOK APPOINTMENT USING</p>
+        <p class="next_line">_______</p><br>
+        <a href="https://www.aarogyasetu.gov.in/" target="_blank"><img src="arogya.png" alt="" class="arogya"></a>
+        <a href="https://web.umang.gov.in/web_new/login?redirect_to=department%3Furl%3Dcowin%2F%26dept_id%3D355%26dept_name%3DCo-WIN"  target="_blank"><img src="umang.png" alt="" height="50px" class="umang"></a>
+        <br><br>
+    </div>
+    <br><br><br><br><br><br>    
+    <div class="footer">
+        <p> Privacy Policy | Terms of Service Copyright © 2021 COWIN. All Rights Reserved </p>
+    </div>
+</body>
+</html>

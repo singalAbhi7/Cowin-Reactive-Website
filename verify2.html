@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function validate(){
+            var adhaar=document.getElementById("adhaar").value;
+            var regex=/^[2-9]{1}[0-9]{3}[0-9]{4}[0-9]{4}$/;
+            if(!adhaar.match(regex)){
+                alert("wrong adhaar number");
+                return false;
+            }
+        }
+
+
+    </script>
+
+   
+<link rel="stylesheet" href="verify.css">
+</head>
+<body>
+<img src="verifying_img.jpeg" alt="Paris">
+<p class="para" > <B> ENTER YOUR DETAILS FOR VERIFICATION</B></p>
+
+<div class="userinput">
+    <form  onsubmit="return validate()" action="certificate1.php" method="post">
+        <label for="company">
+          <span> Adhaar Card</span>
+          <input type="text" id="adhaar" name="adhaa" >
+        </label>
+        <label for="contact">
+          <span>Secret code</span>
+          <input type="text" id="code" name="secret_cod">
+        </label>
+        <button type="submit" >SUBMIT</button>
+      </form>
+
+      
+
+
+</div>
+
+
+<div class="boxed">
+    <p class="text"> The Co-WIN vaccination certificate has a digitally signed secure QR code. This can be authenticated online using the verification utility in this portal or using third party verification app using the services outlined below.</b>
+        <br><br>
+    <b style="color: rgb(100,109,130);"> Option 1 – Online verification</b>
+    <br>
+    <br>
+    <b>Steps for online verification:</b>
+    <br><br>
+    
+    <ol class="option1">
+        <li>Visit <a href="https://www.cowin.gov.in/">https://www.cowin.gov.in/</a>.</li>
+        <li>On the top left of the screen click <b>Verify Certificate</b></li>
+        <li>Site will redirect to <a href="https://verify.cowin.gov.in/">https://verify.cowin.gov.in/ </a>.</li>
+        <li>On successful verification, following attributes are displayed on the screen:</li>
+        <ul class="qr">
+            <li>Message “Certificate Successfully Verified”</li>
+            <li>Name</li>
+            <li>Age</li>
+            <li>Gender</li>
+            <li>Certificate ID</li>
+            <li>Beneficiary ID</li>
+            <li>Vaccine Name</li>
+            <li>Date of Dose</li>
+            <li>Vaccination Status</li>
+            <li>Vaccination at</li>
+        </ul>
+        <br>
+    <b> Option 2 – Offline verification through third party verifier app</b>
+    <br>
+    <br>
+    <b> Steps for offline verification:</b>
+    <ol class="option2">
+        <li>Access the Co-WIN verification service and code for set up <a href="https://github.com/egovernments/DIVOC/tree/india/verification">here</a></li>
+        <li>Get code snippet for reference and implement</li>
+        <li>Replace the public key used in code snippet with Public key available <a href="https://verify.cowin.gov.in/did:india" target="_blank">here</a>.</li>
+        <li>Implement the verification service in your apps to scan, read and validate Co-WIN certificates</li>
+    </ol>
+    
+    </p>
+    
+    
+
+        
+    
+
+</div>
+
+<div class="footer">
+    <p> Privacy Policy | Terms of Service Copyright © 2021 COWIN. All Rights Reserved </p>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+#main{
+    margin: auto;
+    margin-top: 30px;
+    width: 830px;
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    padding-left: 20px;
+}
+
+.reg{
+    color: #002060;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 3px;
+}
+
+.mobile{
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+.blue_mobile{
+    color: #002060;
+    font-weight: bold;
+    margin-top: -19px;
+    margin-left: 203px;
+}
+
+fieldset{
+    border-radius: 12px;
+    margin-right: 30px;
+    margin-top: 30px;
+    border: rgb(185, 185, 185) solid;
+    border-width: 2px;
+}   
+
+legend{
+    background-color: rgb(235, 235, 235);
+    
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 20px;
+    margin-left: 20px;
+}
+
+.name{
+    color: #002060;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.ref_id{
+    margin-top: -35px;
+    margin-right: 25px;
+    margin-left: 476.5px;
+    font-size: 12px;
+}
+
+.red{
+    margin-top: -13.7px;
+    margin-right: 25px;
+    margin-left: 590px;
+    color: red;
+    font-size: 12px;
+
+}
+
+.secret_code{
+    margin-top: -14.5px;
+    margin-right: 12px;
+    margin-left: 650px;
+    font-size: 12px;
+}
+
+.yob{
+    color: #666;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+.yob_value{
+    color: rgb(77, 75, 75);
+    margin-top: -18.5px;
+    margin-left: 119px;
+}
+
+.photo{
+    color: #666;
+    margin-top: -18.5px;
+    margin-left: 195px;
+}
+
+.photo_value{
+    color: rgb(77, 75, 75);
+    margin-top: -18.5px;
+    margin-left: 259px;
+}
+
+.vaccine{
+    color: #666;
+    margin-top: -18.5px;
+    margin-left: 379px;
+}
+
+.v_type{
+    color: rgb(77, 75, 75);
+    margin-top: -18.5px;
+    margin-left: 440px;
+}
+
+.idnum{
+    color: #666;
+    margin-top: -18.5px;
+    margin-left: 562px;
+}
+
+.idnum_value{
+    color: rgb(77, 75, 75);
+    margin-top: -18.5px;
+    margin-left: 649px;
+}
+
+hr{
+    border: 1px rgb(185, 185, 185) dashed;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 96%;
+    text-align: center;
+}
+
+input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 320px;
+    background-color: white;
+    color: #002060;
+    border-radius: 10px;
+    border: #002060 solid;
+    border-width: 1.5px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 20%;
+    height: 45px;
+    font-size: 20px;
+}
+
+input:hover{
+    background-color: rgb(238, 243, 248);
+}
+
+.logo{
+    height: 30px;
+    vertical-align: -8px;
+}
+
+#secondary{
+    margin: auto;
+    width: 830px;   
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    background-color: rgb(139, 223, 214);
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+ol{
+    padding-left: 25px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #002060;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo{
+    margin-top: 8px;
+    padding-left: 40%;
+    height: 60px;
+}
+
+nav{
+    height: 70px;
+    background: white;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+}
+
+.fully{
+    color: green;
+    margin-top: -18.5px;
+    margin-left: 119px;
+}
+.partially{
+    color: green;
+    margin-top: -18.5px;
+    margin-left: 119px;
+}

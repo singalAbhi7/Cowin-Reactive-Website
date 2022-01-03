@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+#main{
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+}
+
+.green_tick{
+    margin-top: -25px;
+    height: 50px;
+    margin-left: 315px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.left{
+    margin-left: 35px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.reg{
+    color: #002060;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.info{
+    margin-top: 20px;
+    margin-left: 35px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.center{
+    margin-left: 35px;
+}
+
+.center_name{
+    margin-top: 10px;
+    margin-left: 36px;
+    font-weight: bold;
+}
+
+.date{
+    color: #666;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.date_value{
+    color: rgb(77, 75, 75);
+    margin-top: -18.5px;
+    margin-left: 79px;
+}
+
+.photo{
+    color: #666;
+    margin-top: -18px;
+    margin-left: 225px;
+}
+
+.photo_value{
+    color: rgb(77, 75, 75);
+    margin-top: -18.5px;
+    margin-left: 270px;
+}
+
+.idnum{
+    color: #666;
+    margin-top: -18.5px;
+    margin-left: 455px;
+}
+
+.idnum_value{
+    color: rgb(77, 75, 75);
+    margin-top: -18.5px;
+    margin-left: 540px;
+}
+
+.input{
+    margin-left: 37px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    height: 30px;
+    width: 600px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: rgb(122, 122, 122) solid;
+}
+
+table{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 35px;
+    border: 1.4px black solid;
+}
+  
+td, th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+td{
+    color: #002060;
+}
+  
+tr:nth-child(odd){
+    background-color: #dddddd;
+}
+
+.instructions{
+    font-weight: 600;
+    margin-left: 35px;
+}
+
+ol{
+    margin-left: 55px;
+}
+
+.register{
+    margin-top: 12px;
+    margin-left: 80%;
+    color: white;
+    background-color: #002060;
+    border-radius: 10px;
+    border: solid;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    height: 45px;
+    width: 15%;
+    font-size: 20px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #002060;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo{
+    margin-top: 8px;
+    padding-left: 40%;
+    height: 60px;
+}
+
+nav{
+    height: 70px;
+    background: white;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+}

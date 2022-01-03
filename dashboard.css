@@ -1,0 +1,135 @@
+.bhagwan{
+    margin-left: 70%;
+    margin-top: 20px;
+    margin-bottom:10px ;
+    
+}
+select{
+    width: 40%;
+    background-position:80% center;
+    font-size: 90%;
+    
+}
+
+body{
+    background-color:#f7faff;
+}
+
+.topgraphs{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    width: 21%;
+    margin-top: 15px;
+    margin-left: 3%;
+
+    
+    
+}
+
+
+.bx2{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    float: left;
+}
+
+.bx3{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    width: 20%;
+    
+    float: right;
+    clear: none;
+    margin-top:19px ;
+
+}
+
+.mid-img{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.mid-img1{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    width: 30%;
+    margin-left:2%;
+    margin-top: 20px;
+    float: left;
+}
+.vaccine-trends{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    margin-top:4%;
+    width: 90%;
+    margin-left: 60px;
+ 
+    
+    
+}
+.vaccine-category{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    margin-top: 30px;;
+    width:30%;
+    margin-left: 2%;;
+}
+.vaccine-age{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    margin-left: 20px;
+    width: 35%;
+    margin-top:2%;
+    padding-bottom: 4.6%;
+}
+.vaccine-state{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    margin-left: 20px;
+    margin-bottom: .2%;
+    width: 25.23%;
+    height: 150%;
+    padding-bottom: 13%;
+}
+.aefireport{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    margin-top: 30px;
+    margin-left: 3%;
+    width: 45%;
+}
+
+.vaccination_coverage{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    width: 90%;
+    margin-top:30px;
+    width: 90%;
+    margin-left: 60px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #002060;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}

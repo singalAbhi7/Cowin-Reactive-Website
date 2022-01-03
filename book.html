@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CoWin</title>
+    <link rel="shortcut icon" href="website-logo.png">
+    <link rel="stylesheet" href="book_style.css">
+    <script> 
+        function validation()
+            {
+                var adhaar=document.getElementById("aadhaar").value;   
+                var regexp=/^[2-9]{1}[0-9]{3}[0-9]{4}[0-9]{4}$/;
+                if(!(adhaar.match(regexp))){
+                    window.alert("Invalid Adhaar Number");   
+                    return false;
+                }
+            }
+    </script>
+</head>
+<body>
+    <div class="topnav">
+        <nav>
+            <label><a href="main.html"><img src="covid19logo.png" alt="" class="logo"></a></label>
+        </nav>
+    </div>
+    <div id="main">
+        <a href="main.html"><img src="left.png" alt="" class="left"></a>
+        <img src="book_logo.svg" alt="" class="heart">
+        <p class="reg">Register for Vaccination</p>
+        <p class="info">Your <b>Photo ID </b>will be verified at the time of your vaccination appointment. Please provide <br> the details of the Photo ID you will carry for vaccination.</p>
+        <div class="input">
+            <form onsubmit="return validation()" action="success.php" method="post"> 
+                <dl>
+                    <dt>Aadhaar Number</dt><br>
+                    <dd><input type="number" name="adhaa" required maxlength="12" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"></dd><br>  
+                    <dt>Name</dt><br>
+                    <input type="text" class="name" name="name" required><br><br>
+                    <dt>Gender</dt><br>
+                    <dt><label class="container">Male
+                        <input type="radio" name="gender" value="Male" required>
+                        <span class="checkmark"></span>
+                    </label></dt>
+                    <dt><label class="container">Female
+                        <input type="radio" name="gender" value="Female" required>
+                        <span class="checkmark"></span>
+                    </label></dt>
+                    <dt><label class="container">Others
+                        <input type="radio" name="gender" value="Others" required>
+                        <span class="checkmark"></span>
+                    </label></dt><br>
+                    <dt>Vaccination Type</dt><br>
+                    <dt><label class="container">Covaxin
+                        <input type="radio" name="vaccine" value="Covaxin" required>
+                        <span class="checkmark"></span>
+                    </label></dt>
+                    <dt><label class="container">Covishield
+                        <input type="radio" name="vaccine" value="Covishield" required>
+                        <span class="checkmark"></span>
+                    </label></dt><br>
+                    <dt>Date Of Birth</dt><br>
+                    <dd><input type="date" name="DOB" required></dd><br>
+                    <dt><p class="terms">By Sign In/Registration, I agree to the <a href="https://www.cowin.gov.in/terms-condition" target="_blank">Terms of Service</a> and <a href="https://www.cowin.gov.in/privacy-policy" target="_blank">Privacy Policy</a></p></dt>
+                    <input type="submit" class="register" value="Register">
+                </dl>
+            </form>
+        </div><p class="first_line">_______</p>
+        <p class="or">OR BOOK APPOINTMENT USING</p>
+        <p class="next_line">_______</p><br>
+        <a href="https://www.aarogyasetu.gov.in/" target="_blank"><img src="arogya.png" alt="" class="arogya"></a>
+        <a href="https://web.umang.gov.in/web_new/login?redirect_to=department%3Furl%3Dcowin%2F%26dept_id%3D355%26dept_name%3DCo-WIN"  target="_blank"><img src="umang.png" alt="" height="50px" class="umang"></a>
+        <br><br>
+    </div>
+    <br><br><br><br><br><br>    
+    <div class="footer">
+        <p> Privacy Policy | Terms of Service Copyright © 2021 COWIN. All Rights Reserved </p>
+    </div>
+</body>
+</html>
